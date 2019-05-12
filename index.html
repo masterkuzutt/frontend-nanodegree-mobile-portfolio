@@ -8,19 +8,29 @@
   <meta name="author" content=" FILL ME IN ">
   <title>Takahiro Sakai: Portfolio</title>
 
-  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css"> -->
   <!-- <link href="css/print.css" rel="stylesheet" media="print"> -->
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+
+
   <!-- [PageSpeed] make fonts to asyn request  -->
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js" async>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js" async>
     WebFont.load({
       google: {
         families: ['Open Sans:400,700']
       }
     });
-  </script>
+  </script> -->
 
   <script>
     (function (w, g) {
@@ -36,94 +46,124 @@
 </head>
 
 <body>
-  <div class="container col-10">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark special-color">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item avatar">
+            <a class="nav-link p-0" href="#">
+              <img src="https://www.gravatar.com/avatar/{digest}?d=identicon&s=30" class="rounded-circle z-depth-0"
+                alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">Takahiro Sakai</a>
+      </div>
+  </header>
+
+  <main class="mt-5">
     <div class="container">
-      <ul class="menu">
-        <li class="menu-item">
-          <div class="tile tile-centered">
-            <div class="tile-icon">
-              <figure class="avatar avatar-xl">
-                <img src="https://www.gravatar.com/avatar/{digest}?d=identicon&s=30" alt="">
-              </figure>
+      <div class="row">
+        <!-- <div class="col-md-7 mb-4">
+
+          <div class="view overlay z-depth-1-half">
+            <img src="" class="card-img-top" alt="">
+            <div class="mask rgba-white-light"></div>
+          </div>
+
+        </div>
+
+        <div class="col-md-5 mb-4"> -->
+        <div class="col-md-9 mb-4">
+
+          <h2>I love web development!</h2>
+
+          <div class="col-md-9 mb-4">
+            <p>
+              this portfolio site is originally made for udacify front-end-developer nanodegree program.
+              after graduation, I decided to use this page to showcase my programming stuff.it
+              is still few, but I'm going to put a lot soon! <br> Contact me: masterkuzutt@email.com
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- <div class="col-md-5"> -->
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <!-- <div class="column col-4 col-md-12"> -->
+          <div class="card">
+            <div class="view overlay">
+              <img src="http://flask.pocoo.org/static/logo/flask.svg" class="img-fluid img-responsive" />
             </div>
-            <div class="container columns col-12 m-2">
-              <div class="col-6 col-md-12">
-                <span class="h3">Takahiro Sakai</span></div>
-              <div class="col-6 col-md-12">
-                <span class="h4">Web Developer</span></div>
+            <a href="#">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="card-body">
+              <h4 class="card-title"><a href="https://kuzu-microblog.herokuapp.com/">Microblog With Flask</a></h4>
+              <p>I made this site by <a
+                  href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">this amazing
+                  flask
+                  tutorial</a>.I wanted focus on to understand server side web frame work, Async requests with
+                javascript
+                and bootstrap things are not impremented.for styling ,I also use <a
+                  href="https://picturepan2.github.io/spectre/">spectre</a></p>
             </div>
           </div>
-        </li>
-      </ul>
-    </div>
-    <br>
-    <div class="container">
-      <div class="card">
-        <div class="card-header">
-          <span class="h4">I love web development!</span>
         </div>
-        <div class="card-body">
-          This is portfolio site originally build for udacity front end
-          nanodegree program.
-          after graduation, I decided to use this page to showcase my programming stuff.it
-          is still few, but I'm going to put a lot soon! <br> Contact me: masterkuzutt@email.com
-        </div>
-      </div>
-    </div>
-    <br>
-    <div class="container columns m-1">
-      <div class="column col-4 col-md-12">
-        <div class="card">
-          <div class="card-img">
-            <img src="http://flask.pocoo.org/static/logo/flask.svg" class="img-responsive" />
-          </div>
-          <div class="card-header">
-            <span class="h4"><a href="https://kuzu-microblog.herokuapp.com/">Microblog With Flask</a></span>
-          </div>
-          <div class="card-body">
-            <p>I made this site by <a
-                href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">this amazing
-                flask
-                tutorial</a>.I wanted focus on to understand server side web frame work, Async requests with javascript
-              and bootstrap things are not impremented.for styling ,I also use <a
-                href="https://picturepan2.github.io/spectre/">spectre</a></p>
-          </div>
-        </div>
-      </div>
 
-      <div class="column col-4 col-md-12">
-        <div class="card">
-          <div class="card-img">
-            <img src="" class="img-responsive" alt="under development" />
-          </div>
-          <div class="card-header">
-            <span class="h4"><a href="#">Future Project</a></span>
-          </div>
-          <div class="card-body">
-            <p>working on!</p>
+        <div class="col-lg-4 col-md-6">
+          <!-- <div class="column col-4 col-md-12"> -->
+          <div class="card">
+            <div class="view overlay">
+              <img src="http://flask.pocoo.org/static/logo/flask.svg" class="img-fluid img-responsive" />
+            </div>
+            <div class="card-header">
+              <span class="h4"><a href="#">Future Project</a></span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Under development</h4>
+              <p>working on!</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="column col-4 col-md-12">
-        <div class="card">
-          <div class="card-img">
-            <img src="" class="img-responsive" alt="under development" />
-          </div>
-          <div class="card-header">
-            <span class="h4"><a href="#">Future Project</a></span>
-          </div>
-          <div class="card-body">
-            <p>working on!</p>
+        <div class="col-lg-4 col-md-6">
+          <!-- <div class="column col-4 col-md-12"> -->
+          <div class="card">
+            <div class="view overlay">
+              <img src="http://flask.pocoo.org/static/logo/flask.svg" class="img-fluid img-responsive" />
+            </div>
+            <div class="card-header">
+              <span class="h4"><a href="#">Future Project</a></span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Under development</h4>
+              <p>working on!</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </main>
 
-    <br>
-    <footer>
+  <footer class="page-footer font-small special-color pt-4">
+    <!-- <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+        </div>
+      </div>
+    </div> -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
       <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
-    </footer>
+    </div>
+    </div>
+    </div>
+  </footer>
   </div>
 </body>
 
